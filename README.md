@@ -1,10 +1,9 @@
 # Neural_Networks_from_Scratch
 Neural Networks From Scratch - Using only Numpy
 
-# Learning Continuous Implicit Representation for Near-Periodic Patterns (ECCV 2022)
-### [Paper: The Core Mathematics of a Neural Network](https://...) | [Code](https://..) | [Data](https://..) 
+### [Paper: The Core Mathematics of a Neural Network](https://github.com/ShlomoStept/Neural_Networks_from_Scratch/blob/main/NN_From_Scratch_The%20Core%20Mathematics.pdf) | [Video](https://www.youtube.com/watch?v=w8yWXqWQYmU) | [Data](https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv) 
 
-![](teaser.jpg)
+![](nn_fs.gif)
 
 ## Get started
 You can set up the environment with all dependencies like so:
@@ -22,9 +21,19 @@ pip install numpy pandas
 ## How to Run
 
 
-1. Please download the python or jupyter-notebook file and the mnist_data folder with all the files
+1. Please download the python or jupyter-notebook file 
 
-2. Then either run the cells of jupyter notebook or run the python file using 
+2. Dowload the dataset - train.csv from (https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv), and place into a folder named mnist_data
+  
+    - At this point your project structure should look like : 
+```
+├── Neural_Network_from_Scratch.ipynb
+├── Neural_Network_from_Scratch.py
+└── mnist_data
+    └── train.csv
+```
+
+3. Then either run the cells of jupyter notebook or run the python file using 
   ```
   python Neural_Network_from_Scratch.py
   ```
@@ -32,5 +41,4 @@ pip install numpy pandas
 ## Disclaimer(s)
 
 1. The result produced by this code might be slightly different when running on a different GPU. 
-2. 
 
